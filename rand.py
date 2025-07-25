@@ -74,12 +74,8 @@ elif result == 3:
 
 if choice == result :
     print("draw")
-elif choice ==1 and result== 2:
+elif choice ==1 and result== 2 or choice == 2 and result ==3 or choice ==3 and result ==1:
      print("vous avez gagné")
-elif choice == 2 and result ==3:
-    print("vous avez gagné ")
-elif choice == 3  and result == 1:
-    print("vous avez gagné")
 else :
     print("vous avez perdu")
 
